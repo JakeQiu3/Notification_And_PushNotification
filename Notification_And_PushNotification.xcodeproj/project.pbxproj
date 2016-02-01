@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		731118F31C5F3A0700BA29DE /* CertificateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 731118F21C5F3A0700BA29DE /* CertificateViewController.m */; };
 		7363C2F61C5B0A3400D25FFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7363C2F51C5B0A3400D25FFA /* main.m */; };
 		7363C2F91C5B0A3400D25FFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7363C2F81C5B0A3400D25FFA /* AppDelegate.m */; };
 		7363C2FF1C5B0A3400D25FFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7363C2FD1C5B0A3400D25FFA /* Main.storyboard */; };
 		7363C3011C5B0A3400D25FFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7363C3001C5B0A3400D25FFA /* Assets.xcassets */; };
 		7363C3041C5B0A3400D25FFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7363C3021C5B0A3400D25FFA /* LaunchScreen.storyboard */; };
 		7363C30D1C5B0A7000D25FFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7363C30C1C5B0A7000D25FFA /* ViewController.m */; };
+		7363C3111C5B0BD500D25FFA /* 通知总结.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7363C3101C5B0BD500D25FFA /* 通知总结.xml */; };
+		7363C3191C5B1A3600D25FFA /* 123.png in Resources */ = {isa = PBXBuildFile; fileRef = 7363C3181C5B1A3600D25FFA /* 123.png */; };
+		7363C31B1C5B32B800D25FFA /* msgTritone.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7363C31A1C5B32B800D25FFA /* msgTritone.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		731118F11C5F3A0700BA29DE /* CertificateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CertificateViewController.h; sourceTree = "<group>"; };
+		731118F21C5F3A0700BA29DE /* CertificateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CertificateViewController.m; sourceTree = "<group>"; };
 		7363C2F11C5B0A3400D25FFA /* Notification_And_PushNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notification_And_PushNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7363C2F51C5B0A3400D25FFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7363C2F71C5B0A3400D25FFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +32,9 @@
 		7363C3051C5B0A3400D25FFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7363C30B1C5B0A7000D25FFA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7363C30C1C5B0A7000D25FFA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7363C3101C5B0BD500D25FFA /* 通知总结.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "通知总结.xml"; sourceTree = "<group>"; };
+		7363C3181C5B1A3600D25FFA /* 123.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 123.png; sourceTree = "<group>"; };
+		7363C31A1C5B32B800D25FFA /* msgTritone.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = msgTritone.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +48,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		731118F01C5F39DE00BA29DE /* iOS开发证书讲解 */ = {
+			isa = PBXGroup;
+			children = (
+				731118F11C5F3A0700BA29DE /* CertificateViewController.h */,
+				731118F21C5F3A0700BA29DE /* CertificateViewController.m */,
+			);
+			name = "iOS开发证书讲解";
+			sourceTree = "<group>";
+		};
 		7363C2E81C5B0A3400D25FFA = {
 			isa = PBXGroup;
 			children = (
@@ -58,12 +76,13 @@
 		7363C2F31C5B0A3400D25FFA /* Notification_And_PushNotification */ = {
 			isa = PBXGroup;
 			children = (
+				7363C31C1C5B32BC00D25FFA /* Lib */,
 				7363C2F71C5B0A3400D25FFA /* AppDelegate.h */,
 				7363C2F81C5B0A3400D25FFA /* AppDelegate.m */,
 				7363C30B1C5B0A7000D25FFA /* ViewController.h */,
 				7363C30C1C5B0A7000D25FFA /* ViewController.m */,
-				7363C30F1C5B0AA700D25FFA /* Notification（推送） */,
-				7363C30E1C5B0A9500D25FFA /* Notification (通知消息) */,
+				731118F01C5F39DE00BA29DE /* iOS开发证书讲解 */,
+				7363C3101C5B0BD500D25FFA /* 通知总结.xml */,
 				7363C2F41C5B0A3400D25FFA /* Supporting Files */,
 			);
 			path = Notification_And_PushNotification;
@@ -81,18 +100,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7363C30E1C5B0A9500D25FFA /* Notification (通知消息) */ = {
+		7363C31C1C5B32BC00D25FFA /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				7363C31A1C5B32B800D25FFA /* msgTritone.caf */,
+				7363C3181C5B1A3600D25FFA /* 123.png */,
 			);
-			name = "Notification (通知消息)";
-			sourceTree = "<group>";
-		};
-		7363C30F1C5B0AA700D25FFA /* Notification（推送） */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "Notification（推送）";
+			name = Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,9 +166,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7363C31B1C5B32B800D25FFA /* msgTritone.caf in Resources */,
 				7363C3041C5B0A3400D25FFA /* LaunchScreen.storyboard in Resources */,
+				7363C3111C5B0BD500D25FFA /* 通知总结.xml in Resources */,
 				7363C3011C5B0A3400D25FFA /* Assets.xcassets in Resources */,
 				7363C2FF1C5B0A3400D25FFA /* Main.storyboard in Resources */,
+				7363C3191C5B1A3600D25FFA /* 123.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +182,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				731118F31C5F3A0700BA29DE /* CertificateViewController.m in Sources */,
 				7363C30D1C5B0A7000D25FFA /* ViewController.m in Sources */,
 				7363C2F91C5B0A3400D25FFA /* AppDelegate.m in Sources */,
 				7363C2F61C5B0A3400D25FFA /* main.m in Sources */,
@@ -316,6 +334,7 @@
 				7363C30A1C5B0A3400D25FFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -28,8 +28,8 @@
 }
 
 - (void)initData {
-    _dataArray = [[NSArray alloc] initWithObjects:@"MapKit（定位当前位置和加大头针）",@"CoreLocation(定位)",@"AppleMap(推荐,调用系统的地图)", nil];
-    _classArray = [[NSArray alloc] initWithObjects:@"MapKitViewController",@"CoreLocationViewController",@"AppleMapViewController", nil];
+    _dataArray = [[NSArray alloc] initWithObjects:@"Notification（本地推送）",@"Notification (远程推送通知)",@"iOS开发证书讲解", nil];
+    _classArray = [[NSArray alloc] initWithObjects:@"LocalNotificationViewController",@"RemoteNotificationViewController",@"CertificateViewController", nil];
 }
 
 - (void)setUI {
