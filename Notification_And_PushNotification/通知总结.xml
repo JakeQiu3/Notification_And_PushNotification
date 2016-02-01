@@ -1,6 +1,9 @@
 <!--本地通知是由本地应用触发的，它是基于时间行为的一种通知形式-->
-创建UILocalNotification。
+添加本地通知的流程：创建UILocalNotification。
 设置处理通知的时间fireDate。
 配置通知的内容：通知主体、通知声音、图标数字等。
 配置通知传递的自定义数据参数userInfo（这一步可选）。
 调用通知，可以使用scheduleLocalNotification:按计划调度一个通知，也可以使用presentLocalNotificationNow立即调用通知。
+
+通知的声音是由iOS系统播放的，格式必须是Linear PCM、MA4（IMA/ADPCM）、µLaw、aLaw中的一种，并且播放时间必须在30s内，否则将被系统声音替换，同时自定义声音文件必须放到main boundle中
+<!--本地通知是有操作系统统一调度的，只有在应用退出到后台或者关闭才能收到通知-->

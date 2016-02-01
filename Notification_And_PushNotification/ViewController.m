@@ -28,8 +28,8 @@
 }
 
 - (void)initData {
-    _dataArray = [[NSArray alloc] initWithObjects:@"Notification（本地推送）",@"Notification (远程推送通知)",@"", nil];
-    _classArray = [[NSArray alloc] initWithObjects:@"LocalNotificationViewController",@"RemoteNotificationViewController",@"", nil];
+    _dataArray = [[NSArray alloc] initWithObjects:@"Notification（本地推送）",@"Notification (远程推送通知)",@"iOS开发证书讲解", nil];
+    _classArray = [[NSArray alloc] initWithObjects:@"LocalNotificationViewController",@"RemoteNotificationViewController",@"CertificateViewController", nil];
 }
 
 - (void)setUI {
