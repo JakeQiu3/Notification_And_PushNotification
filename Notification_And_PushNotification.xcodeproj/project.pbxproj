@@ -14,7 +14,7 @@
 		7363C3011C5B0A3400D25FFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7363C3001C5B0A3400D25FFA /* Assets.xcassets */; };
 		7363C3041C5B0A3400D25FFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7363C3021C5B0A3400D25FFA /* LaunchScreen.storyboard */; };
 		7363C30D1C5B0A7000D25FFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7363C30C1C5B0A7000D25FFA /* ViewController.m */; };
-		7363C3111C5B0BD500D25FFA /* 通知总结.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7363C3101C5B0BD500D25FFA /* 通知总结.xml */; };
+		7363C3111C5B0BD500D25FFA /* 推送总结.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7363C3101C5B0BD500D25FFA /* 推送总结.xml */; };
 		7363C3191C5B1A3600D25FFA /* 123.png in Resources */ = {isa = PBXBuildFile; fileRef = 7363C3181C5B1A3600D25FFA /* 123.png */; };
 		7363C31B1C5B32B800D25FFA /* msgTritone.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7363C31A1C5B32B800D25FFA /* msgTritone.caf */; };
 /* End PBXBuildFile section */
@@ -32,7 +32,7 @@
 		7363C3051C5B0A3400D25FFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7363C30B1C5B0A7000D25FFA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7363C30C1C5B0A7000D25FFA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7363C3101C5B0BD500D25FFA /* 通知总结.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "通知总结.xml"; sourceTree = "<group>"; };
+		7363C3101C5B0BD500D25FFA /* 推送总结.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "推送总结.xml"; sourceTree = "<group>"; };
 		7363C3181C5B1A3600D25FFA /* 123.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 123.png; sourceTree = "<group>"; };
 		7363C31A1C5B32B800D25FFA /* msgTritone.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = msgTritone.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,7 +82,7 @@
 				7363C30B1C5B0A7000D25FFA /* ViewController.h */,
 				7363C30C1C5B0A7000D25FFA /* ViewController.m */,
 				731118F01C5F39DE00BA29DE /* iOS开发证书讲解 */,
-				7363C3101C5B0BD500D25FFA /* 通知总结.xml */,
+				7363C3101C5B0BD500D25FFA /* 推送总结.xml */,
 				7363C2F41C5B0A3400D25FFA /* Supporting Files */,
 			);
 			path = Notification_And_PushNotification;
@@ -168,7 +168,7 @@
 			files = (
 				7363C31B1C5B32B800D25FFA /* msgTritone.caf in Resources */,
 				7363C3041C5B0A3400D25FFA /* LaunchScreen.storyboard in Resources */,
-				7363C3111C5B0BD500D25FFA /* 通知总结.xml in Resources */,
+				7363C3111C5B0BD500D25FFA /* 推送总结.xml in Resources */,
 				7363C3011C5B0A3400D25FFA /* Assets.xcassets in Resources */,
 				7363C2FF1C5B0A3400D25FFA /* Main.storyboard in Resources */,
 				7363C3191C5B1A3600D25FFA /* 123.png in Resources */,
